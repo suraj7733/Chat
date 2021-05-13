@@ -4,7 +4,7 @@ var app = express();
 var socket = require("socket.io");
 var WebSocketServer = require("ws");
 var conn = require("./dbserver.js");
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3306;
 var server = app.listen(port, ()=>console.log("Server starting on port no. 3000"));
 //var routes = require("./routes.js");
 var session = require("express-session");
