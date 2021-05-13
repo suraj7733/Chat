@@ -4,7 +4,8 @@
   "description": "Every body can send Messages easily",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "app.js"
   },
   "author": "Suraj Sharma",
   "license": "ISC",
