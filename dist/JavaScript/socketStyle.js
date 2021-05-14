@@ -1,7 +1,7 @@
 //const ConnectionConfig = require("mysql/lib/ConnectionConfig");
 
 //var mm = 7733877412;
-var socket = io.connect("http://localhost:3000");
+var socket = io.connect("http://chatojha.herokuapp.com:3000");
 function setMobileIntoSocket(phone) {
     //alert(mm);
     sessionStorage.clear();
